@@ -1,0 +1,4 @@
+2024-10-16T14:49:50+02:00 | Fatal error | Array and string offset access syntax with curly braces is no longer supported | redaxo/src/addons/mostconnect/vendor/leafo/lessphp/lessc.inc.php | 717 | http://localhost:8080/
+2024-10-16T14:50:33+02:00 | Fatal error | Array and string offset access syntax with curly braces is no longer supported | redaxo/src/addons/mostconnect/vendor/leafo/lessphp/lessc.inc.php | 1768 | http://localhost:8080/
+2024-10-16T14:51:15+02:00 | Exception | load error: failed to find /var/www/html/redaxo/src/addons/project/assets/css/main.less | redaxo/src/addons/mostconnect/vendor/leafo/lessphp/lessc.inc.php | 1818 | http://localhost:8080/
+2024-10-16T15:27:46+02:00 | Error | Class "Normalizer" not found | redaxo/src/core/lib/util/string.php | 39 | http://localhost:8080/redaxo/index.php?page=packages

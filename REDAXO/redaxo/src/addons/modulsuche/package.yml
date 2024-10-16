@@ -1,0 +1,23 @@
+package: modulsuche
+version: '1.4.1'
+author: 'Friends of REDAXO'
+"license": "MIT"
+compile: 0
+supportpage: https://github.com/friendsofredaxo/modulsuche
+
+pages:
+  modules/modulsuche:
+    title: translate:title
+    perm: modulsuche[]
+    pjax: true
+    subpages:
+      config: { title: 'translate:modulsuche_configuration' }
+      start: { title: 'translate:modulsuche_start', subPath: README.md  }
+
+load: late
+
+requires:
+    packages:
+      structure: '>=2.0'
+    
+    redaxo: '>=5.0'

@@ -1,0 +1,56 @@
+package: consent_manager
+version: "4.3.0"
+author: "Friends Of REDAXO"
+supportpage: https://redaxo.org/support/community/#slack
+
+page:
+  title: "translate:consent_manager_title"
+  perm: consent_manager[]
+  pjax: true
+  icon: rex-icon fa fa-coffee
+  subpages:
+    cookiegroup:
+      title: "translate:consent_manager_cookiegroups"
+    cookie:
+      title: "translate:consent_manager_cookies"
+    text:
+      title: "translate:consent_manager_texts"
+    domain:
+      title: "translate:consent_manager_domains"
+    config:
+      title: "translate:consent_manager_config"
+    theme:
+      title: "translate:consent_manager_theme"
+    log:
+      title: "translate:consent_manager_log"
+    setup:
+      title: "translate:consent_manager_setup"
+    help:
+      {
+        title: "translate:consent_manager_help",
+        icon: rex-icon fa-question-circle,
+        subPath: README.md,
+        itemclass: pull-right,
+      }
+    changelog:
+      {
+        title: "translate:consent_manager_changelog",
+        subPath: CHANGELOG.md,
+        itemclass: pull-right,
+      }
+
+requires:
+  redaxo: "^5.12"
+  php:
+    version: ">=7, <9"
+
+default_config:
+  hidebodyscrollbar: false
+  outputowncss: false
+  skip_consent: ''
+  lifespan: 365
+  theme: false
+
+installer_ignore:
+    - .github
+    - .gitignore

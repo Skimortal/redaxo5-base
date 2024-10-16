@@ -1,0 +1,81 @@
+consent_manager_title = Consent manager
+consent_manager_name = Name
+consent_manager_name_empty_msg = Name is a required field
+consent_manager_uid = Key
+consent_manager_prio = Order
+consent_manager_uid_with_hint = Key [a-z0-9-]
+consent_manager_uid_empty_msg = Key is a required field
+consent_manager_uid_malformed_msg = Key can only contain lower case a-z, 0-9 and - characters, ex.: "google-analytics" or "youtube"
+consent_manager_description = Description
+consent_manager_not_deletable = This record cannot be deleted because it is required by this addon
+consent_manager_successfully_deleted = Record deleted
+consent_manager_help = Help
+
+consent_manager_cookies = Cookies
+consent_manager_cookie_add = Create cookie
+consent_manager_cookie_edit = Edit cookie
+consent_manager_cookie_consent_manager_info = "consent_manager" is required by this addon. It contains the users choice.
+consent_manager_cookie_notice_provider_link_privacy = Leave empty for data protection statement for this domain
+consent_manager_cookie_service_name = Service- / Cookiename
+consent_manager_cookie_provider = Provider
+consent_manager_cookie_provider_link_privacy = Data protection statement link
+consent_manager_cookie_definition = Service definitions (YAML)
+consent_manager_cookie_placeholder_text = Placeholder text
+consent_manager_cookie_placeholder_image = Placeholder image
+
+consent_manager_cookiegroups = Services
+consent_manager_cookiegroup_add = Create service
+consent_manager_cookiegroup_edit = Edit service
+consent_manager_cookiegroup_required = this group contains required services and cookies
+consent_manager_cookiegroup_scripts = Scripts which will be loaded once consent is set
+consent_manager_cookiegroup_scripts_unselect = Scripts will be loaded once consent is withdrawn
+consent_manager_cookiegroup_scripts_notice = Enter scripts including <code><script>...</script></code>
+
+consent_manager_texts = Texts
+consent_manager_text = Text
+consent_manager_text_add = Create text
+consent_manager_text_edit = Edit text
+
+consent_manager_domains = Domains
+consent_manager_domain = Domain
+consent_manager_domain_empty_msg = Domain is a required field
+consent_manager_domain_malformed_msg = Please enter domain with this syntax <code>mydomain.com</code>
+consent_manager_domain_add = Add domain
+consent_manager_domain_edit = Edit domain
+consent_manager_domain_privacy_policy = Data protection statement
+consent_manager_domain_legal_notice = Masthead
+consent_manager_domain_privacy_policy_empty_msg = Data protection statement is a required field
+consent_manager_domain_legal_notic_empty_msg = Masthead is a required field
+
+consent_manager_setup = Setup
+consent_manager_setup_headline = Import example configuration
+consent_manager_setup_info = Texts and often used cookies/cookiegroups will be imported.<br><strong>CAUTION - present texts and cookies/cookiegruops will be deleted.</strong>
+consent_manager_setup_import = Import
+consent_manager_setup_import_confirm = Import and delete existing data?
+consent_manager_setup_import_successful = Example configuration was imported succesfully
+
+consent_manager_cache_write_failed = Cache file could not be written
+
+consent_manager_config = Settings
+consent_manager_config_title = Consent-Manager settings
+consent_manager_config_legend = Frontend output settings
+consent_manager_config_css_desc = When set to active, frontend CSS will only be loaded when required.<br>1. when no cookie has been set by and for Consent-Manager<br>2. when a link to open the consent box is present on the website (with a class of either <code>consent_manager-show-box</code> or <code>consent_manager-show-box-reload</code>).
+consent_manager_config_css = Conditionally load frontend CSS as required
+consent_manager_config_owncss_desc = When set to active default frontend CSS for the consent box will not be loaded (consent_manager_frontend.css). <br>CSS styles for the consent box need to be present in custom (own) stylesheet.
+consent_manager_config_owncss = Use custom CSS
+consent_manager_config_hidebodyscrollbar =
+consent_manager_config_hidebodyscrollbar_desc =
+consent_manager_config_lifespan_label = Lifespan
+consent_manager_config_lifespan_notice = Lifespan of the settings cookie in days. Default: 365
+consent_manager_config_token_legend =
+consent_manager_config_token_label =
+consent_manager_config_token_notice =
+
+consent_manager_log =
+consent_manager_thead_title =
+consent_manager_thead_id =
+consent_manager_thead_createdate =
+consent_manager_thead_domain =
+consent_manager_thead_consents =
+consent_manager_thead_cachelogid =
+consent_manager_thead_consentid =

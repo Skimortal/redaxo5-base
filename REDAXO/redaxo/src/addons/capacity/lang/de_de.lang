@@ -1,0 +1,17 @@
+capacity_title = Capacity
+capacity_title_extended = Speicherplatz überwachen
+capacity_refresh = Aktualisieren
+capacity_options = Grundeinstellungen
+capacity_highlighting = Markierungen
+capacity_fieldname = Auslastung
+capacity_spacename = Speicherlimit
+capacity_warning = Warnung ab:
+capacity_largedir = Verzeichnisse ab:
+capacity_largefile = Dateien ab:
+capacity_spacename_placeholder = zB. 100 (MB)
+capacity_warning_placeholder = coming soon
+capacity_largedir_placeholder = zB. 10 (MB)
+capacity_largefile_placeholder = zB. 1 (MB)
+capacity_notice = (Alle Angaben in Megabyte als ganze Zahl eingeben.)
+
+

@@ -1,0 +1,21 @@
+# addon:modulsuche de_de
+modulsuche_start = Info
+modulsuche_information = Information
+modulsuche_title = Modulsuche
+modulsuche_files = Dateien
+modulsuche_configuration = Konfiguration
+modulsuche_settings = Einstellungen
+modulsuche_limit = Suchoption anzeigen ab wie vielen verfügbaren Modulen?
+modulsuche_search = Modulsuche in Blockauswahl
+modulsuche_display_type = Darstellungsart
+modulsuche_display_type_extended = Erweiterte Ansicht in Modulauswahl
+modulsuche_display_type_extended_label = Aktivieren
+modulsuche_module = Module
+modulsuche_module_detail_view = Modul-Details
+modulsuche_available_modules = Verfügbare Module
+modulsuche_id = ID
+modulsuche_name = Name
+modulsuche_module_thumbnail = Vorschaubild in Modulauswahl
+modulsuche_module_description = Kurze Beschreibung
+modulsuche_edit = Bearbeiten
+modulsuche_module_edit = Modulinformationen bearbeiten
