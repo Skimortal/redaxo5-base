@@ -4,3 +4,4 @@ REDAXO/assets/addons/mostconnect/css/main.css
 REDAXO/redaxo/cache/*
 !REDAXO/redaxo/cache/.htaccess
 !REDAXO/redaxo/cache/.redaxo
+REDAXO/redaxo/data/addons/consent_manager/config.json
